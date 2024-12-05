@@ -1,0 +1,10 @@
+project:
+  type: website
+  output-dir: docs
+  render:
+    - reports/qmd_example.qmd
+
+format:
+  html:
+    theme: cosmo
+    toc: true
