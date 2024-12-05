@@ -8,8 +8,7 @@ format:
     pdf:
         toc: true
         toc-depth: 2
-        resources:
-            - reports/qmd_example.pdf
+        fig-pos: H
 editor: source
 bibliography: references.bib
 execute:
