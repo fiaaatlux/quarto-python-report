@@ -1,8 +1,13 @@
 project:
   type: website
   output-dir: docs
-  render:
-    - reports/qmd_example.qmd
+
+website:
+  title: "Horse Population Report"
+  navbar:
+    left:
+      - href: reports/qmd_example.qmd
+        text: Home
 
 format:
   html:
